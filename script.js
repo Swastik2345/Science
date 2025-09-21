@@ -1,4 +1,3 @@
-// Chapters and quiz questions
 
 const chapters = {
 
