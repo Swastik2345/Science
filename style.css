@@ -1,0 +1,24 @@
+body { font-family: serif, sans-serif; background:#f9f9f9; margin:0; padding:0; }
+
+header, footer { background: #22a6b3; color: #fff; padding: 10px; text-align: center; }
+
+nav { background: #dff9fb; padding: 15px; }
+
+nav label { font-weight: bold; }
+
+nav select { margin: 0 8px; padding: 6px; }
+
+main { margin: 20px auto; background: #fff; padding: 20px; border-radius: 10px; max-width: 650px; }
+
+h2 { color: #22a6b3; }
+
+textarea { width: 100%; height: 60px; padding: 6px; font-size: 1em; margin-bottom:10px; }
+
+button { background: #22a6b3; color: #fff; border: none; padding: 8px 18px; border-radius: 4px; cursor:pointer; }
+
+#notes-view { margin-bottom:16px; }
+
+#quiz-view { margin-bottom:12px; }
+
+#doubtReminder { color: #f44336; font-weight:bold; }
+
