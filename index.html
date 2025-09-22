@@ -1,105 +1,55 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
   <title>School Subjects Hub</title>
-
   <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
-
   <header>
-
     <h1>School Subjects Hub</h1>
-
   </header>
 
   <nav>
-
     <label for="subject">Subject:</label>
-
     <select id="subject" onchange="showChapters()">
-
       <option value="">--Choose--</option>
-
       <option value="science">Science</option>
-
       <option value="maths">Maths</option>
-
       <option value="english">English</option>
-
       <option value="sst">Social Studies</option>
-
-      <!-- Add more subjects here -->
-
     </select>
 
     <label for="chapter">Chapter:</label>
-
     <select id="chapter" onchange="showUploadAndQuiz()"></select>
-
   </nav>
 
   <main>
-
     <div id="notes-section">
-
       <h2>Notes</h2>
-
       <div id="notes-view"></div>
-
-      <form name="notes-upload" method="POST" data-netlify="true" id="notesForm" style="margin-top:12px;">
-
-        <textarea name="notes" placeholder="Paste your notes or Google Drive link"></textarea>
-
-        <button type="submit">Upload</button>
-
-      </form>
-
     </div>
 
     <div id="quiz-section" style="display:none;">
-
       <h2>Quiz</h2>
-
       <div id="quiz-view"></div>
-
       <button onclick="startQuiz()">Start Quiz</button>
-
     </div>
 
     <div id="doubt-section">
-
       <h2>Ask Doubt</h2>
-
       <form name="doubt-upload" method="POST" data-netlify="true" id="doubtForm">
-
         <textarea name="doubt" placeholder="Type your question or paste image link"></textarea>
-
         <button type="submit">Submit Doubt & Remind Teacher</button>
-
       </form>
-
       <p id="doubtReminder"></p>
-
     </div>
-
   </main>
 
   <footer>
-    <p> email: jaipuriacomputerclub@gmail.com </p>
-
-    <p>made with ❤️ JCC <br> SETH  ANANDRAM  JAIPURIA  SCHOOL  , VARANASI </p>
-
+    <p>email: jaipuriacomputerclub@gmail.com</p>
+    <p>made with ❤️ JCC <br> SETH ANANDRAM JAIPURIA SCHOOL, VARANASI</p>
   </footer>
 
   <script src="script.js"></script>
-
 </body>
-
 </html>
-
